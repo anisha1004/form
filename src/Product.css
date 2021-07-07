@@ -1,0 +1,36 @@
+.product {
+  display: flex;
+}
+
+.product_contents {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.product_container > h1 {
+  font-weight: 200;
+}
+
+.product_container > h1 > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(54, 114, 224);
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.addProducts {
+  padding: 10px;
+}
+
+.product_container > span {
+  padding: 10px;
+}
