@@ -10,10 +10,11 @@ import UploadButtons from './UploadButton';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 300,
+    maxWidth: 1000,
   },
   media: {
-    height: 300,
+    width: 250,
+    height: 250,
   },
 });
 

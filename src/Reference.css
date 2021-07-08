@@ -1,3 +1,21 @@
+.reference_container > h1 {
+  font-weight: 200;
+}
+
+.reference_container > h1 > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(54, 114, 224);
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
 .reference_cards {
   display: flex;
+  padding: 30px;
 }

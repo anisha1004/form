@@ -21,11 +21,14 @@ function CampaignInfo () {
                 <option>A</option>
                 <option>B</option>
                 <option>C</option>
-              </select>
+              </select> 
             </div>
 
             <div className="campaignInfo_contents">
-              <span>Campaign Description</span><input type="text"/>
+              <span>Campaign Description</span>
+              <div className="inputBox">
+                <input type="text"/>
+              </div>
             </div>
 
             <div className="campaignInfo_contents">
