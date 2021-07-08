@@ -9,7 +9,10 @@ function CampaignInfo () {
          <div className="campaignInfo">
 
             <div className="campaignInfo_contents">
-              <span>Campaign Name</span><input type="text"/>
+              <span>Campaign Name</span>
+              <div className="inputBox">
+                <input type="text"/>
+              </div>
             </div>
 
             <div className="campaignInfo_contents">

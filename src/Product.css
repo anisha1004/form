@@ -10,6 +10,14 @@
   padding-left: 50px;
 }
 
+.product_contents_list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+}
+
 .product_container > h1 {
   font-weight: 200;
 }
@@ -33,4 +41,8 @@
 
 .product_container > span {
   padding: 10px;
+}
+
+.inputBox {
+  width: 10px;
 }
